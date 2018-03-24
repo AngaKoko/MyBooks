@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyBooks</string>
+    <string name="no_internet_connection">pas de connexion Internet</string>
+    <string name="nothing_to_shot">Rien à montrer</string>
+    <string name="query_hint">Rechercher un livre</string>
+</resources>

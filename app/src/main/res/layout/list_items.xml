@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp">
+
+    <TextView
+        android:id="@+id/title_of_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Title of Book"
+        android:textSize="18sp"
+        android:textColor="@color/textColorTitleOfBook"/>
+    <TextView
+        android:id="@+id/sut_title_of_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="Title of Book"
+        android:layout_alignBottom="@id/title_of_book"
+        android:textSize="12sp"
+        android:layout_toRightOf="@id/title_of_book"
+        android:textColor="@color/textColorTitleOfBook"/>
+
+    <ImageView
+        android:id="@+id/book_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/title_of_book"
+        android:scaleType="centerCrop"
+        android:layout_margin="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/title_of_book"
+        android:layout_toRightOf="@id/book_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/author_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anga Koko - 1999"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textSize="12sp"
+            android:textColor="@color/textColorEarAuthorAndYear"/>
+
+        <TextView
+            android:id="@+id/book_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textSize="12sp"
+            android:maxLines="3"
+            android:textColor="@color/textColorDescriptionOfBook"
+            android:text="This is a good book, must read, was published blablabla" />
+    </RelativeLayout>
+
+</RelativeLayout>

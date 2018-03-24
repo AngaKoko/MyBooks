@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Text color for the Author and year of Book -->
+    <color name="textColorEarAuthorAndYear">#B4BAC0</color>
+
+    <!-- Text color for the Description of Book -->
+    <color name="textColorDescriptionOfBook">#2B3D4D</color>
+
+    <!-- Text Color for the Title of Book -->
+    <color name="textColorTitleOfBook">#303F9F</color>
+</resources>
